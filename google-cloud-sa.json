@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "obzervr-taxi",
+  "private_key_id": "0656638dd8a81fd91647e8b2cafc59f05db4fd1b",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDXIM1Q/k+KhKcp\nMe95yZgAiESXdhu0s4HhsvuvrSIsuVph3JYMQ1Q5ewXMocH3FgPGMUfRgCEaHaET\nuynFP5BjGpJF9ZEiFONdy8SWNhyKJYMeff2xJrt8toRGzINK5xcB8vcIrZxvUNzS\nf7fIGrnuKgLmABS6YVWh40XP1FOBAhDib7M30ddJdj7k+7jEMW4S+2b0C6dazCeG\nGmSOy5IX1hhrXzG5XXMoHTbyPB7fHzqfd9kVy1V/tBgN5LzCoX8T1rmVnjFM6IAE\nygwdYv+jmcCJx/wMwLggDHx+KmE2Djh/PNuIZX3E8RX2f8oe/8rjlD9Z8zDgUhpg\nOW76fG9tAgMBAAECggEAEA4PpJrGHuVVgFqMr78ey/Nfgxo6aRr4d3qfE/ZM1Z+j\noigPPq0LrRqETUhJLIKFF5Z38KeqUMOjUNCoBmN/CBZkkjoIcc2zRj291yQErz6r\ncWwfscfdOCp65rm+lql2axvR2eDzCs+zGzaS5akw9RhHjRi2c05uUJ2giSkkbj0x\nJ7BgecbAlZ1R2ucYh/c661X+kLyHgMhe/6qCg+KMeH6bb4RwH4EHj9LnykQF13+I\nvRCNY5y36fxfiIArlE6X5D2+ifkwP+Ih8m+7N3ORieugEdBtIMXaXMwPB9iMP2zA\nDbsCkjTXQiZiLaoHEBIQkOq3Wlq3PEeJCW01ftlqlQKBgQD3aFz2TyN7eBMkBuJs\nyTQ2zbhvkxIi5+QTnpk42XK+52qFLFrgHo10BqSCBmCmu8t6bVWAnHFqlLFjI3I1\nBxBrOoMmQefrrKpSdB43+1PN1C6bq0GdXvtGlTQVxG5lcaM+rFQNaURf/RmbA4zr\n9rIH7frR5W0jr97Fpnmcqmv6ywKBgQDemXMxnxPhon6cm/6h69Kdxuozevu0ArGn\njnIjrfaqui2AmzIwNtVHlBLscjn915HrZe/CqlY56oZD0D1zxAlzlt9WarQ4ENxc\niZ87jKMO+lRgTj89zFbkZZvaCa5esXh0bwoUCbNHz5tgJd2hssqdK4xUA4QIHMhD\nj0mxIB/fpwKBgQDSoXw7iqansFODYYUVnrqgScZS30AajZfkiCrkdmQ1WSmb1WZM\n1lYRSLJ3rFxOtyUFxt17UDVSyuK2h2/s62W0FK2hPYzoXSjoZ8luWb9ARfukNkn3\nY+zDa7VbLs/Z98RGUEqC3HME0aMiEQTBw1ZQX/AhEJU5Q7qCRTfWBFVHvwKBgHRU\nCwAumww6iCI934ctH2c20aPPrIR5N/BRn9KHkjXMkAT6lfLeZP1AI9ePJkFDC83R\n+sdnjyI7Lql3xPWfyDSw7sxRfRcjsJVnkmBjcb9dEQU3PxODmxFHDHiYwJhZ9JIc\niU7JdvibRR6tCzL6paoXXQF2yOQYbovn8OHw4NdXAoGASFOfXAPQawm9wXPUjhgs\niUK//uOHaEM3ud+tUtTBUA0kXp/94/WpJs31dCw9cmz3vF3vwYPjwlX/GgHv/pRQ\nmYjZ2YrjiqOpROutASCyyicf9rCnUs/FKrY52QoUvqawH7VcuZSu92qZwe3jSmaV\nE6dy5HsW0V66QGpykF2QAhU=\n-----END PRIVATE KEY-----\n",
+  "client_email": "my-bigquery-sa@obzervr-taxi.iam.gserviceaccount.com",
+  "client_id": "109398135078047100735",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/my-bigquery-sa%40obzervr-taxi.iam.gserviceaccount.com"
+}
