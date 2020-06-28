@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.29911.84
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObzervrProgrammingTest", "ObzervrProgrammingTest.csproj", "{687052BB-5835-4335-945B-0934A1651499}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObzervrProgrammingTest.Test", "ObzervrProgrammingTest.Test\ObzervrProgrammingTest.Test.csproj", "{1DEDA234-EC32-4954-8D28-47B4A57AA01E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObzervrProgrammingTest.Tests", "..\ObzervrProgrammingTest.Tests\ObzervrProgrammingTest.Tests.csproj", "{797DF8FA-F4A7-43B7-9C41-CC139CFD822E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{687052BB-5835-4335-945B-0934A1651499}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{687052BB-5835-4335-945B-0934A1651499}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{687052BB-5835-4335-945B-0934A1651499}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1DEDA234-EC32-4954-8D28-47B4A57AA01E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1DEDA234-EC32-4954-8D28-47B4A57AA01E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1DEDA234-EC32-4954-8D28-47B4A57AA01E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1DEDA234-EC32-4954-8D28-47B4A57AA01E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{797DF8FA-F4A7-43B7-9C41-CC139CFD822E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{797DF8FA-F4A7-43B7-9C41-CC139CFD822E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{797DF8FA-F4A7-43B7-9C41-CC139CFD822E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{797DF8FA-F4A7-43B7-9C41-CC139CFD822E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
