@@ -1,4 +1,4 @@
-export const ApplicationName = 'ObservrDeveloperTest';
+export const ApplicationName = 'ObservrProgrammingTest';
 
 export const QueryParameterNames = {
   ReturnUrl: 'returnUrl',

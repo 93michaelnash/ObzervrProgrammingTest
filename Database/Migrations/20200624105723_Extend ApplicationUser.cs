@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace ObservrDeveloperTest.Data.Migrations
+namespace ObservrProgrammingTest.Data.Migrations
 {
     public partial class ExtendApplicationUser : Migration
     {

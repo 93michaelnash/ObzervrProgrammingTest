@@ -5,9 +5,9 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using ObservrDeveloperTest.Data;
+using ObservrProgrammingTest.Data;
 
-namespace ObservrDeveloperTest.Data.Migrations
+namespace ObservrProgrammingTest.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
     [Migration("20200624105723_Extend ApplicationUser")]
@@ -238,7 +238,7 @@ namespace ObservrDeveloperTest.Data.Migrations
                     b.ToTable("AspNetUserTokens");
                 });
 
-            modelBuilder.Entity("ObservrDeveloperTest.Models.ApplicationUser", b =>
+            modelBuilder.Entity("ObservrProgrammingTest.Models.ApplicationUser", b =>
                 {
                     b.Property<string>("Id")
                         .HasColumnType("nvarchar(450)");
@@ -317,7 +317,7 @@ namespace ObservrDeveloperTest.Data.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<string>", b =>
                 {
-                    b.HasOne("ObservrDeveloperTest.Models.ApplicationUser", null)
+                    b.HasOne("ObservrProgrammingTest.Models.ApplicationUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -326,7 +326,7 @@ namespace ObservrDeveloperTest.Data.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
                 {
-                    b.HasOne("ObservrDeveloperTest.Models.ApplicationUser", null)
+                    b.HasOne("ObservrProgrammingTest.Models.ApplicationUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -341,7 +341,7 @@ namespace ObservrDeveloperTest.Data.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("ObservrDeveloperTest.Models.ApplicationUser", null)
+                    b.HasOne("ObservrProgrammingTest.Models.ApplicationUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -350,7 +350,7 @@ namespace ObservrDeveloperTest.Data.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>
                 {
-                    b.HasOne("ObservrDeveloperTest.Models.ApplicationUser", null)
+                    b.HasOne("ObservrProgrammingTest.Models.ApplicationUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)

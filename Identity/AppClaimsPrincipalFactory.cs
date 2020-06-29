@@ -1,10 +1,10 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Options;
-using ObservrDeveloperTest.Models;
+using ObservrProgrammingTest.Models;
 using System.Security.Claims;
 using System.Threading.Tasks;
 
-namespace ObservrDeveloperTest.Identity
+namespace ObservrProgrammingTest.Identity
 {
     public class AppClaimsPrincipalFactory : UserClaimsPrincipalFactory<ApplicationUser, IdentityRole>
     {

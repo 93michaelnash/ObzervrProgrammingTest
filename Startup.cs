@@ -10,9 +10,10 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using ObservrDeveloperTest.Data;
-using ObservrDeveloperTest.Identity;
-using ObservrDeveloperTest.Models;
+using ObservrProgrammingTest.Data;
+using ObservrProgrammingTest.Identity;
+using ObservrProgrammingTest.Models;
+using ObzervrProgrammingTest.Services;
 
 namespace ObzervrProgrammingTest
 {
@@ -40,6 +41,8 @@ namespace ObzervrProgrammingTest
                 .AddApiAuthorization<ApplicationUser, ApplicationDbContext>();
 
             services.AddScoped<IUserClaimsPrincipalFactory<ApplicationUser>, AppClaimsPrincipalFactory>();
+
+            services.AddScoped<IBigQueryTaxiDataService, BigQueryTaxiDataService>();
 
             services.AddAuthentication()
                 .AddIdentityServerJwt();

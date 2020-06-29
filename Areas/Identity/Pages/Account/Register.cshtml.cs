@@ -14,9 +14,9 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.Extensions.Logging;
-using ObservrDeveloperTest.Models;
+using ObservrProgrammingTest.Models;
 
-namespace ObservrDeveloperTest.Areas.Identity.Pages.Account
+namespace ObservrProgrammingTest.Areas.Identity.Pages.Account
 {
     [AllowAnonymous]
     public class RegisterModel : PageModel
