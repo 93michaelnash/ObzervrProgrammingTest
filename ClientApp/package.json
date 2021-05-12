@@ -15,7 +15,7 @@
     "history": "4.10.1",
     "jquery": "^3.4.1",
     "mapbox-gl": "^1.11.0",
-    "merge": "1.2.1",
+    "merge": "2.1.1",
     "oidc-client": "^1.10.1",
     "popper.js": "^1.16.0",
     "react": "16.11.0",
